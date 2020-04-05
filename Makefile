@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=-c -Wall
 all: start
-start: AESEncrypt.o
-	$(CC) AESEncrypt.o
-AESEncrypt.o: AESEncrypt.c
-	$(CC) $(CFLAGS) AESEncrypt.c
+start: AES128.o
+	$(CC) AES128.o
+AESEncrypt.o: AES128.c
+	$(CC) $(CFLAGS) AES128.c
 clean: 
 	rm -rf *o a.out
