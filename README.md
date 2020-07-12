@@ -1,7 +1,5 @@
 # AES-Encryption
 
----------------------------------------------------------------------------------------------------------------------------------------------------
-
 ### Description
 
 This is a simple implementation of the Advanced Encryption Standard using C Programming Language
